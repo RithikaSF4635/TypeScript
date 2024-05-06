@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#home h2{
+    color: #333;
+    font-size: 50px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+#home{
+    text-align: center;
+    margin-top: 10%;
+}
+#home button{
+    width: 200px;
+    height: auto;
+}
+
+input[type="text"], input[type="email"], input[type="password"],input[type="number"],input[type="date"]{
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"], button[type="button"], input[type="button"]{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover, input[type="button"]:hover{
+    background-color: #45a049;
+}
+
+#menubar button{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#menubar button:hover
+{
+    background-color: #45a049;
+}
+
+.addbutton{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.add:hover{
+    background-color: #45a049;
+}
+
+#medicineinfo button,#purchase button,#cancelDisplay button{
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#medicineinfo button:hover,#purchase button:hover,#cancelDisplay button:hover{
+    background-color: wheat;
+}
+
+table,th,td{
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.1);
+    background-color: #9ad59c;
+}
+
+th,td{
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #f2f2f2;
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#newUser{
+    display: none;
+}
+#existingUser{
+    display: none;
+}
+#menubar{
+    display: none;
+}
+#medicineinfo{
+    display: none;
+}
+#purchase{
+    display:none;
+}
+#requiredCount{
+    display:none;
+}
+#purchasedetails{
+    display: none;
+}
+#topup{
+    display: none;
+}
+#historyDisplay{
+    display: none;
+}
+#cancelDisplay{
+    display: none;
+}
+#AddDiv{
+    display: none;
+}
